@@ -29,17 +29,33 @@
 }
 
 .barrinha{
-  background-color: rgb(77, 77, 77);
+  background-color: rgb(119, 119, 119);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-duration: 1.5s;
+}
+
+.barrinha:hover{
+  background-color: rgb(255, 115, 105);
+  transition: 0.5s;
+}
+
+.barrinha-main{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(197, 197, 197, 0.19);
+}
+
+.barrinha-main:hover{
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(32, 32, 32, 0.19);
 }
 
 .titulos{
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
-  font-style: italic;
 }
 
 .back-two{
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(230, 230, 230);
     color: rgb(255, 255, 255);
     border-radius: 2rem 0px 0px 2rem;
 }
